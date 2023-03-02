@@ -5,17 +5,17 @@ CLASS: Cosmic Linear Anisotropy Solving System  {#mainpage}
 This is the code for coupled vector dark energy model, which includes only the background modification.
 
 
-The model has got seven parameters $\left(s, b_{2}, p_{2}, \beta ,Q,  q, \rho_^{DE}_{ini}\right)$. 
+The model has got seven parameters (s, b2, p2, beta ,Q,  q, rho_vf_ini \right)$. 
 
-We have two options for $\beta$: 1 or 0. 
-$\beta=1$ correspond to arXiv:1907.12216v2 while $\beta = 0$ arXiv:2207.13682v1 [astro-ph.CO] 27 Jul 2022. 
-The .ini files for $\beta = 0$ are missing.
+We have two options for $beta$: 1 or 0. 
+$beta=1$ correspond to arXiv:1907.12216v2 while $beta = 0$ arXiv:2207.13682v1.
+The .ini files for $beta = 0$ are missing.
 
-We fix $q$  and $b_{2}$ in background.c
+We fix q and b2 in background.c
 
-$s, p$ and, $Q$ are the parameters of the model.  
+s, p and, Q are the parameters of the model.  
 
-To run an example with $Q = 0, p=1$ and $s = 0.2$, type 
+To run an example with Q = 0, p=1and s = 0.2 type 
 
 ./class ini_file_cde/beta_1/Q_0/s_02.ini 
 
@@ -28,7 +28,7 @@ ini_file_cde/beta_1/Q_02/
 ini_file_cde/beta_1/Q_05/
 ini_file_cde/beta_1/Q_1/
 
-In those files, you will find .ini files with the following values of $s$ to run Class: 1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1 
+In those files, you will find .ini files with the following values of s to run Class: 1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1 
 
 The outputs will be saved in output_for_cde/
 
