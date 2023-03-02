@@ -7,9 +7,9 @@ This is the code for coupled vector dark energy model, which includes only the b
 
 The model has got seven parameters (s, b2, p2, beta ,Q,  q, rho_vf_ini \right)$. 
 
-We have two options for $beta$: 1 or 0. 
-$beta=1$ correspond to arXiv:1907.12216v2 while $beta = 0$ arXiv:2207.13682v1.
-The .ini files for $beta = 0$ are missing.
+We have two options for beta: 1 or 0. 
+beta=1 correspond to arXiv:1907.12216v2 while $beta = 0$ arXiv:2207.13682v1.
+The .ini files for beta = 0 are missing.
 
 We fix q and b2 in background.c
 
