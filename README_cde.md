@@ -5,7 +5,7 @@ CLASS: Cosmic Linear Anisotropy Solving System  {#mainpage}
 This is the code for coupled vector dark energy model, which includes only the background modification.
 
 
-The model has got seven parameters ($s, b_{2}, p_{2}, \beta ,Q,  q, \rho_^{DE}_{ini}$). 
+The model has got seven parameters $\left(s, b_{2}, p_{2}, \beta ,Q,  q, \rho_^{DE}_{ini}\right)$. 
 
 We have two options for $\beta$: 1 or 0. 
 $\beta=1$ correspond to arXiv:1907.12216v2 while $\beta = 0$ arXiv:2207.13682v1 [astro-ph.CO] 27 Jul 2022. 
