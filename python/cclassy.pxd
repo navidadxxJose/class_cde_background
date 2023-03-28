@@ -109,6 +109,10 @@ cdef extern from "class.h":
         double H_eq
         double z_eq
         double tau_eq
+        double Omega0_vf   
+        double * vf_parameters
+        int vf_tuning_index
+        short num_sol_cdm_vf 
 
     cdef struct thermodynamics:
         ErrorMsg error_message
